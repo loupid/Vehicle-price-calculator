@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wilbr\\source\\repos\\progi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65A799E8-038D-4DB2-BE98-B8F25BB895F3}|progi.Server\\progi.Server.csproj|c:\\users\\wilbr\\source\\repos\\progi\\progi.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{65A799E8-038D-4DB2-BE98-B8F25BB895F3}|progi.Server\\progi.Server.csproj|solutionrelative:progi.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A799E8-038D-4DB2-BE98-B8F25BB895F3}|progi.Server\\progi.Server.csproj|c:\\users\\wilbr\\source\\repos\\progi\\progi.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65A799E8-038D-4DB2-BE98-B8F25BB895F3}|progi.Server\\progi.Server.csproj|solutionrelative:progi.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A799E8-038D-4DB2-BE98-B8F25BB895F3}|progi.Server\\progi.Server.csproj|c:\\users\\wilbr\\source\\repos\\progi\\progi.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65A799E8-038D-4DB2-BE98-B8F25BB895F3}|progi.Server\\progi.Server.csproj|solutionrelative:progi.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A799E8-038D-4DB2-BE98-B8F25BB895F3}|progi.Server\\progi.Server.csproj|c:\\users\\wilbr\\source\\repos\\progi\\progi.server\\progi.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{65A799E8-038D-4DB2-BE98-B8F25BB895F3}|progi.Server\\progi.Server.csproj|solutionrelative:progi.server\\progi.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A64B99-C3D6-429A-B99A-1C947C131CAE}|progi.client\\progi.client.esproj|c:\\users\\wilbr\\source\\repos\\progi\\progi.client\\src\\app.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62A64B99-C3D6-429A-B99A-1C947C131CAE}|progi.client\\progi.client.esproj|solutionrelative:progi.client\\src\\app.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CHANGELOG.md",
+              "DocumentMoniker": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.Server\\CHANGELOG.md",
+              "RelativeDocumentMoniker": "progi.Server\\CHANGELOG.md",
+              "ToolTip": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.Server\\CHANGELOG.md",
+              "RelativeToolTip": "progi.Server\\CHANGELOG.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-09-24T22:40:42.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "progi.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.Server\\appsettings.json",
+              "RelativeToolTip": "progi.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T22:40:41.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "progi.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "progi.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T22:40:31.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "progi.Server",
+              "DocumentMoniker": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.Server\\progi.Server.csproj",
+              "RelativeDocumentMoniker": "progi.Server\\progi.Server.csproj",
+              "ToolTip": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.Server\\progi.Server.csproj",
+              "RelativeToolTip": "progi.Server\\progi.Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-24T22:40:28.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.vue",
+              "DocumentMoniker": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.client\\src\\App.vue",
+              "RelativeDocumentMoniker": "progi.client\\src\\App.vue",
+              "ToolTip": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.client\\src\\App.vue",
+              "RelativeToolTip": "progi.client\\src\\App.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2024-09-24T21:55:19.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

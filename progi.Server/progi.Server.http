@@ -1,0 +1,6 @@
+@progi_Server_HostAddress = http://localhost:5181
+
+GET {{progi_Server_HostAddress}}/WeatherForecaste/
+Accept: application/json
+
+###
