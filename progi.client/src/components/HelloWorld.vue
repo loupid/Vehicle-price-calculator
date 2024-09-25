@@ -6,7 +6,7 @@ const post = ref(null);
 
 const fetchData = () => {
   loading.value = true;
-  fetch('/WeatherForecaste')
+  fetch('weatherforecast')
       .then(r => r.json())
       .then(json => {
         post.value = json;

@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\wilbr\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\wilbr\\source\\repos\\progi\\progi.Server\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\wilbr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

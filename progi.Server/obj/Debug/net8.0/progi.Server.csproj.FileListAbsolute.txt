@@ -33,3 +33,4 @@ C:\Users\wilbr\source\repos\progi\progi.Server\obj\Debug\net8.0\refint\progi.Ser
 C:\Users\wilbr\source\repos\progi\progi.Server\obj\Debug\net8.0\progi.Server.pdb
 C:\Users\wilbr\source\repos\progi\progi.Server\obj\Debug\net8.0\progi.Server.genruntimeconfig.cache
 C:\Users\wilbr\source\repos\progi\progi.Server\obj\Debug\net8.0\ref\progi.Server.dll
+C:\Users\wilbr\source\repos\progi\progi.Server\obj\Debug\net8.0\progi.Server.sourcelink.json
