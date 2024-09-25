@@ -10,12 +10,19 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@primevue/themes": "^4.2.4",
+    "postcss-import": "^16.1.0",
+    "primevue": "^4.2.4",
+    "tailwindcss-primeui": "^0.3.4",
     "vue": "^3.4.29"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.20",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
     "vite": "^5.3.1"
   }
 }

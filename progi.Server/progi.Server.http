@@ -1,6 +1,19 @@
 @progi_Server_HostAddress = http://localhost:5181
 
-GET {{progi_Server_HostAddress}}/WeatherForecaste/
-Accept: application/json
+###
+POST {{progi_Server_HostAddress}}/pricecalculator/
+Content-Type: application/json
+
+{
+  "BasePrice": 398,
+  "VehicleType": "Common"
+}
 
 ###
+POST {{progi_Server_HostAddress}}/pricecalculator/
+Content-Type: application/json
+
+{
+  "BasePrice": 5,
+  "VehicleType": "Luxury"
+}

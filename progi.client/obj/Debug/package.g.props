@@ -9,10 +9,17 @@
     <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
     <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore</PackageJsonScriptsLint>
+    <PackageJsonDependenciesPrimevueThemes Condition="$(PackageJsonDependenciesPrimevueThemes) == ''">^4.2.4</PackageJsonDependenciesPrimevueThemes>
+    <PackageJsonDependenciesPostcssImport Condition="$(PackageJsonDependenciesPostcssImport) == ''">^16.1.0</PackageJsonDependenciesPostcssImport>
+    <PackageJsonDependenciesPrimevue Condition="$(PackageJsonDependenciesPrimevue) == ''">^4.2.4</PackageJsonDependenciesPrimevue>
+    <PackageJsonDependenciesTailwindcssPrimeui Condition="$(PackageJsonDependenciesTailwindcssPrimeui) == ''">^0.3.4</PackageJsonDependenciesTailwindcssPrimeui>
     <PackageJsonDependenciesVue Condition="$(PackageJsonDependenciesVue) == ''">^3.4.29</PackageJsonDependenciesVue>
     <PackageJsonDevdependenciesVitejsPluginVue Condition="$(PackageJsonDevdependenciesVitejsPluginVue) == ''">^5.0.5</PackageJsonDevdependenciesVitejsPluginVue>
+    <PackageJsonDevdependenciesAutoprefixer Condition="$(PackageJsonDevdependenciesAutoprefixer) == ''">^10.4.20</PackageJsonDevdependenciesAutoprefixer>
     <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^8.57.0</PackageJsonDevdependenciesEslint>
     <PackageJsonDevdependenciesEslintPluginVue Condition="$(PackageJsonDevdependenciesEslintPluginVue) == ''">^9.23.0</PackageJsonDevdependenciesEslintPluginVue>
+    <PackageJsonDevdependenciesPostcss Condition="$(PackageJsonDevdependenciesPostcss) == ''">^8.4.47</PackageJsonDevdependenciesPostcss>
+    <PackageJsonDevdependenciesTailwindcss Condition="$(PackageJsonDevdependenciesTailwindcss) == ''">^3.4.13</PackageJsonDevdependenciesTailwindcss>
     <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">^5.3.1</PackageJsonDevdependenciesVite>
   </PropertyGroup>
 </Project>
