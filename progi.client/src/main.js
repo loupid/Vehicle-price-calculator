@@ -1,14 +1,10 @@
-import './assets/style.css'
-import { createApp } from 'vue'
 import App from './App.vue'
-import PrimeVue from 'primevue/config'
-import Aura from '@primevue/themes/aura'
+import { createApp } from 'vue';
+import PrimeVue from 'primevue/config';
+import "./assets/tailwind.css";
+import "./style.css"
 
-createApp(App).use(PrimeVue, {
-	theme: {
-		preset: Aura,
-		options: {
-			darkModeSelector: 'system'
-		}
-	}
+const app = createApp(App);
+app.use(PrimeVue, {
+	theme: 'none'
 }).mount('#app')
