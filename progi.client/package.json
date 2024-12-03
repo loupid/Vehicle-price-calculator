@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@primevue/forms": "^4.2.4",
+    "@primevue/themes": "^4.2.4",
     "postcss-import": "^16.1.0",
     "primevue": "^4.2.4",
     "tailwindcss-primeui": "^0.3.4",

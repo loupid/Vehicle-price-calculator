@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const primeui = require('tailwindcss-primeui')
 
 export default {
     content: [
@@ -13,6 +12,6 @@ export default {
     // darkMode: [
     //     'selector', '[class*="app-dark"]'
     // ],
-    plugins: [primeui],
+    plugins: [require('tailwindcss-primeui')],
 }
 

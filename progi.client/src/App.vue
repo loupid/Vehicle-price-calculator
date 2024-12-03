@@ -7,7 +7,7 @@ import {reactive, ref, watch} from "vue";
 
 const options = ref(['Common', 'Luxury']);
 const initialValues = reactive({
-    carPrice: 5,
+    carPrice: 0,
     option: 'Common'
 });
 
@@ -20,6 +20,10 @@ const fees = reactive({
 });
 
 function calculateTotal(values) {
+    if (values.carPrice <= 0) {
+        return;
+    }
+
     const body = {
         BasePrice: values.carPrice,
         VehicleType: values.option
@@ -34,11 +38,11 @@ function calculateTotal(values) {
     })
         .then(data => data.json())
         .then(data => {
-            fees.basic = data.basic;
-            fees.special = data.special;
-            fees.association = data.association;
-            fees.storage = data.storage;
-            fees.total = data.total;
+            fees.basic = data.basic.toFixed(2);
+            fees.special = data.special.toFixed(2);
+            fees.association = data.association.toFixed(2);
+            fees.storage = data.storage.toFixed(2);
+            fees.total = data.total.toFixed(2);
         });
 }
 
@@ -62,22 +66,21 @@ watch(initialValues, (values) => {
                     <SelectButton v-model="initialValues.option" :options="options" name="option"/>
                 </div>
             </div>
-            {{ initialValues }}
             <div class="flex flex-col">
                 <h2>Fees</h2>
                 <Divider></Divider>
                 <div class="px-4 items-center flex flex-col sm:flex-row gap-x-4">
-                    <h3>Basic : {{fees.basic}}</h3>
-                    <h3>Special : {{fees.special}}</h3>
+                    <h3>Basic : {{ fees.basic ?? 0 }} $</h3>
+                    <h3>Special : {{ fees.special ?? 0}} $</h3>
                 </div>
                 <div class="px-4 items-center flex flex-col sm:flex-row gap-x-4">
-                    <h3>Association : {{fees.association}}</h3>
-                    <h3>Storage : {{fees.storage}}</h3>
+                    <h3>Association : {{ fees.association ?? 0}} $</h3>
+                    <h3>Storage : {{ fees.storage ?? 0}} $</h3>
                 </div>
                 <Divider/>
             </div>
             <div class="flex flex-col">
-                <h2>Total : 92</h2>
+                <h2>Total : {{ fees.total }} $</h2>
             </div>
         </section>
     </div>

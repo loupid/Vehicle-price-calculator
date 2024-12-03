@@ -1,35 +1,18 @@
 ﻿namespace progi.Server.Models;
 
-public class LuxuryCar(int basePrice) : ICar
+public class LuxuryCar(int basePrice) : Car(basePrice)
 {
-    private const double BasicRate = 0.1;
-    private const double SpecialRate = 0.04;
+    protected override decimal SpecialRate => 0.04m;
 
-    public int BasePrice { get; } = basePrice;
-
-    public PriceCalculationResult CalculatePrice(PriceCalculationRequest request)
+    public override decimal CalculateBasicCharge()
     {
-        var basicCharge = CalculateBasicCharge();
-        var specialCharge = CalculateSpecialCharge();
-        var associationCharge = ((ICar) this).CalculateAssociationCharge();
+        var basicCharge = base.CalculateBasicCharge();
 
-        var result = new PriceCalculationResult
+        return basicCharge switch
         {
-            Basic = basicCharge,
-            Special = specialCharge,
-            Association = associationCharge
+            < 25 => 10m,
+            > 200 => 50m,
+            _ => base.CalculateBasicCharge()
         };
-
-        result.Total = CalculateTotalPrice(result);
-
-        return result;
     }
-
-
-    private double CalculateBasicCharge() => BasePrice * BasicRate;
-
-    private double CalculateSpecialCharge() => BasePrice * SpecialRate;
-
-    private double CalculateTotalPrice(PriceCalculationResult result) =>
-        BasePrice + result.Basic + result.Special + result.Association + result.Storage;
 }

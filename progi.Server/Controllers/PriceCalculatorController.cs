@@ -12,24 +12,17 @@ public class PriceCalculatorController(ILogger<PriceCalculatorController> logger
     [HttpPost(Name = "PostPriceCalculator")]
     [ProducesResponseType(typeof(PriceCalculationResult), StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public IResult PriceCalculator([FromBody] PriceCalculationRequest request)
+    public IResult PriceCalculator([FromBody] PriceCalculationRequest? request)
     {
-        ICar car;
-        switch (request.VehicleType)
-        {
-            case "Common":
-            {
-                car = new CommonCar(request.BasePrice);
-                break;
-            }
-            case "Luxury":
-            {
-                car = new LuxuryCar(request.BasePrice);
-                break;
-            }
-            default: return Results.NotFound();
-        }
+        if (request is null) return Results.NotFound();
 
-        return Results.Ok(car.CalculatePrice(request));
+        ICar? car = request.VehicleType switch
+        {
+            "Common" => new CommonCar(request.BasePrice),
+            "Luxury" => new LuxuryCar(request.BasePrice),
+            _ => null
+        };
+
+        return car == null ? Results.NotFound() : Results.Ok(car.CalculatePrice(request));
     }
 }
