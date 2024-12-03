@@ -8,17 +8,17 @@
 
 .p-toggleswitch-slider {
     @apply inline-block w-full h-full rounded-[30px] shadow-[0_1px_2px_0_rgba(18,18,23,0.05)]
-        bg-surface-300 dark:bg-surface-700
-        border border-transparent
-        transition-colors duration-200
+    bg-surface-300 dark:bg-surface-700
+    border border-transparent
+    transition-colors duration-200
 }
 
 .p-toggleswitch-handle {
     @apply absolute top-1/2 flex justify-center items-center
-        bg-surface-0 dark:bg-surface-400
-        text-surface-500 dark:text-surface-900
-        w-4 h-4 start-1 -mt-2 rounded-full
-        transition-[background,color,left] duration-200
+    bg-surface-0 dark:bg-surface-400
+    text-surface-500 dark:text-surface-900
+    w-4 h-4 start-1 -mt-2 rounded-full
+    transition-[background, color, left] duration-200
 }
 
 .p-toggleswitch.p-toggleswitch-checked .p-toggleswitch-slider {

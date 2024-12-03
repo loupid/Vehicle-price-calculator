@@ -9,6 +9,7 @@
     <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
     <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore</PackageJsonScriptsLint>
+    <PackageJsonDependenciesPrimevueForms Condition="$(PackageJsonDependenciesPrimevueForms) == ''">^4.2.4</PackageJsonDependenciesPrimevueForms>
     <PackageJsonDependenciesPostcssImport Condition="$(PackageJsonDependenciesPostcssImport) == ''">^16.1.0</PackageJsonDependenciesPostcssImport>
     <PackageJsonDependenciesPrimevue Condition="$(PackageJsonDependenciesPrimevue) == ''">^4.2.4</PackageJsonDependenciesPrimevue>
     <PackageJsonDependenciesTailwindcssPrimeui Condition="$(PackageJsonDependenciesTailwindcssPrimeui) == ''">^0.3.4</PackageJsonDependenciesTailwindcssPrimeui>

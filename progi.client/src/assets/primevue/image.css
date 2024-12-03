@@ -8,7 +8,7 @@
 
 .p-image-preview-mask {
     @apply absolute start-0 top-0 w-full h-full flex items-center justify-center opacity-0
-        border-none p-0 cursor-pointer bg-transparent text-surface-200 transition-all duration-200
+    border-none p-0 cursor-pointer bg-transparent text-surface-200 transition-all duration-200
 }
 
 .p-image-preview:hover > .p-image-preview-mask {
@@ -25,9 +25,9 @@
 
 .p-image-action {
     @apply inline-flex justify-center items-center text-surface-50 bg-transparent w-12 h-12 m-0 p-0
-        border-none cursor-pointer select-none rounded-full transition-colors duration-200
-        hover:text-surface-0 hover:bg-white/10
-        focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-primary
+    border-none cursor-pointer select-none rounded-full transition-colors duration-200
+    hover:text-surface-0 hover:bg-white/10
+    focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-primary
 }
 
 .p-image-action .p-icon {

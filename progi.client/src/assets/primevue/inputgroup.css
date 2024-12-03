@@ -11,8 +11,8 @@
 
 .p-inputgroupaddon {
     @apply flex items-center justify-center p-2 min-w-10
-        border-y border-surface-300 dark:border-surface-700
-        bg-surface-0 dark:bg-surface-950 text-surface-400
+    border-y border-surface-300 dark:border-surface-700
+    bg-surface-0 dark:bg-surface-950 text-surface-400
 }
 
 .p-inputgroupaddon:first-child,

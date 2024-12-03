@@ -1,6 +1,6 @@
 .p-progressspinner {
     @apply relative my-0 mx-auto w-[100px] h-[100px] inline-block
-        before:block before:pt-[100%]
+    before:block before:pt-[100%]
 }
 
 .p-progressspinner-spin {

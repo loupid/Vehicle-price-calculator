@@ -20,7 +20,7 @@
     @apply sticky z-10
 }
 
-.p-treetable-scrollable-table>.p-treetable-tfoot {
+.p-treetable-scrollable-table > .p-treetable-tfoot {
     @apply bottom-0 z-10
 }
 
@@ -36,7 +36,7 @@
     @apply bg-surface-0 dark:bg-surface-900
 }
 
-.p-treetable-scrollable > .p-treetable-table-container > .p-treetable-table > .p-treetable-tfoot  {
+.p-treetable-scrollable > .p-treetable-table-container > .p-treetable-table > .p-treetable-tfoot {
     @apply bg-surface-0 dark:bg-surface-900
 }
 
@@ -92,21 +92,21 @@
 
 .p-treetable-header {
     @apply py-3 px-4 border-b border-surface-200 dark:border-surface-700
-        bg-surface-0 dark:bg-surface-900
-        text-surface-700 dark:text-surface-0
+    bg-surface-0 dark:bg-surface-900
+    text-surface-700 dark:text-surface-0
 }
 
 .p-treetable-footer {
     @apply py-3 px-4 border-b border-surface-200 dark:border-surface-700
-        bg-surface-0 dark:bg-surface-900
-        text-surface-700 dark:text-surface-0
+    bg-surface-0 dark:bg-surface-900
+    text-surface-700 dark:text-surface-0
 }
 
 .p-treetable-header-cell {
     @apply py-3 px-4 font-normal text-start transition-colors duration-200
-        border-b border-surface-200 dark:border-surface-700
-        bg-surface-0 dark:bg-surface-900
-        text-surface-700 dark:text-surface-0
+    border-b border-surface-200 dark:border-surface-700
+    bg-surface-0 dark:bg-surface-900
+    text-surface-700 dark:text-surface-0
 }
 
 .p-treetable-column-title {
@@ -144,8 +144,8 @@
 
 .p-treetable-tfoot > tr > td {
     @apply text-start py-3 px-4 border-b border-surface-200 dark:border-surface-800
-        bg-surface-0 dark:bg-surface-900
-        text-surface-700 dark:text-surface-0
+    bg-surface-0 dark:bg-surface-900
+    text-surface-700 dark:text-surface-0
 }
 
 .p-treetable-column-footer {
@@ -262,11 +262,11 @@
     @apply py-4 px-5
 }
 
-.p-treetable.p-treetable-lg .p-treetable-tbody>tr>td {
+.p-treetable.p-treetable-lg .p-treetable-tbody > tr > td {
     @apply py-4 px-5
 }
 
-.p-treetable.p-treetable-lg .p-treetable-tfoot>tr>td {
+.p-treetable.p-treetable-lg .p-treetable-tfoot > tr > td {
     @apply py-4 px-5
 }
 
@@ -284,10 +284,10 @@
 
 .p-treetable-node-toggle-button {
     @apply inline-flex items-center justify-center overflow-hidden relative select-none
-        transition-colors duration-200 w-7 h-7 rounded-full border-none bg-transparent cursor-pointer
-        enabled:hover:bg-surface-100 dark:enabled:hover:bg-surface-900
-        text-surface-500 dark:text-surface-400 enabled:hover:text-surface-700 dark:enabled:hover:text-surface-0
-        focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-primary
+    transition-colors duration-200 w-7 h-7 rounded-full border-none bg-transparent cursor-pointer
+    enabled:hover:bg-surface-100 dark:enabled:hover:bg-surface-900
+    text-surface-500 dark:text-surface-400 enabled:hover:text-surface-700 dark:enabled:hover:text-surface-0
+    focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-primary
 
 }
 

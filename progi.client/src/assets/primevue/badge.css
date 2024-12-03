@@ -1,7 +1,7 @@
 .p-badge {
     @apply inline-flex items-center justify-center rounded-md
-        py-0 px-2 text-xs font-bold min-w-6 h-6
-        bg-primary text-primary-contrast
+    py-0 px-2 text-xs font-bold min-w-6 h-6
+    bg-primary text-primary-contrast
 }
 
 .p-badge-dot {

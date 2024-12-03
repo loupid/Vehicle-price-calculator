@@ -4,7 +4,7 @@
 
 .p-floatlabel label {
     @apply absolute pointer-events-none top-1/2 -translate-y-1/2 transition-all duration-200 ease-out leading-none font-medium
-        start-3 text-surface-500 dark:text-surface-400
+    start-3 text-surface-500 dark:text-surface-400
 }
 
 .p-floatlabel:has(.p-textarea) label {
@@ -37,8 +37,8 @@
 
 .p-floatlabel:has(input:focus) label,
 .p-floatlabel:has(input:-webkit-autofill) label,
-.p-floatlabel:has(textarea:focus) label ,
-.p-floatlabel:has(.p-inputwrapper-focus) label  {
+.p-floatlabel:has(textarea:focus) label,
+.p-floatlabel:has(.p-inputwrapper-focus) label {
     @apply text-primary
 }
 

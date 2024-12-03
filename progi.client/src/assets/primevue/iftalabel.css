@@ -20,10 +20,10 @@
     @apply text-red-400 dark:text-red-300
 }
 
-.p-iftalabel:has(input:focus) label ,
+.p-iftalabel:has(input:focus) label,
 .p-iftalabel:has(input:-webkit-autofill) label,
-.p-iftalabel:has(textarea:focus) label ,
-.p-iftalabel:has(.p-inputwrapper-focus) label  {
+.p-iftalabel:has(textarea:focus) label,
+.p-iftalabel:has(.p-inputwrapper-focus) label {
     @apply text-primary
 }
 

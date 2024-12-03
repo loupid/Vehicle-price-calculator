@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("progi.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4567fda125b3ae17b2914012fc38c37b710e4ac9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33401e7a17c668c5a620ae9a4fe9b159a9e100d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("progi.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("progi.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
